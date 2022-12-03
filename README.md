@@ -1,71 +1,35 @@
-![header](https://user-images.githubusercontent.com/38620899/106385660-2de04b00-63b0-11eb-9747-843cdc397c76.PNG)
 
-> Status: Developing ⚠️
+> ChatBot⚠️
 
-### It is a web application planned by me, where I perform the CRUD of Calisthenics Movements.
+### Um projeto elaborado pela empresa Digitalk, onde o objetivo era criar um Widget que contém uma tela de boas-vindas e um chatbot.
 
-## Some fields in main Model is:
+## Tecnologias necessárias para a execução do projeto:
 
-+ name 
-+ description
-+ repetation num
-+ sequency num
-+ dificult category
-+ i know
-+ user_id
-+ image
-  
-Also that, has a User with this fields:
++ React 
++ Styled-Components
 
-+ name
-+ email
-+ cpf
-+ birth
-+ active
+Tecnologias usadas:
 
-## In addition to CRUD, I implement other features such as:
++ (ReactJS)
++ React-Router-Dom
++ Styled-Components
 
-* See the more recently movement created, using Cookie.
-* Entire verification system to validate forms with personalized messages.
-* Message of success when create a movement, using Session Flash.
-* Profile User editable.
+## Funcionalidades:
 
-## This features are in developing:
+* Se o usuário não enviar mensagens dentro de 1 minuto, aparecerá uma mensagem automaticamente.
+* Se o usuário ficar inativo por 3 minutos o chat encerrará sua sessão e exibirá uma mensagem.
 
-- Search for movements by name and/or dificulted category.
-- Email verification.
+## Páginas do projeto:
 
-## Technologies Used:
+- Primeira página - Tela que contém uma mensagem de boas-vindas e um botão para continuar.
+- Segunda página - Tela onde o usuário poderá inserir seu respectivo nome e um botão para entrar na tela de chat.
+- Terceira página - Tela onde o usuário poderá interagir com o ChatBot.
 
-<table>
-  <tr>
-    <td>PHP</td>
-    <td>Laravel</td>
-    <td>Composer</td>
-    <td>MySql</td>
-  </tr>
-  <tr>
-    <td>6.*</td>
-    <td>7.4</td>
-    <td>2.0</td>
-    <td>8.0</td>
-  </tr>
-</table>
 
-## How to run the application:
+## Como iniciar o projeto:
 
-1) run shell: composer install
-2) run shell: php artisan key:generate
-3) create new Schema MySql
-4) create file .env (can copy from .env.example)
-5) configure your database variables in .env
-6) run shell: php artisan migrate
-7) run shell: php artisan serve
+1) Baixar o projeto
+2) Instalar a pasta node_modules (yarn install ou npm install)
+3) Iniciar o projeto (npm start)
 
-## How to use mail service:
-
-1) create free account in mailtrap
-2) into of mailtrap site, go to My Inbox
-3) go to SMT settigns
-4) choice Laravel option in Integrations
-5) copy and past in your .env
+## Layout:
