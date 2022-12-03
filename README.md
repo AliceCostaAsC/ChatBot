@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+![header](https://user-images.githubusercontent.com/38620899/106385660-2de04b00-63b0-11eb-9747-843cdc397c76.PNG)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Status: Developing ⚠️
 
-## Available Scripts
+### It is a web application planned by me, where I perform the CRUD of Calisthenics Movements.
 
-In the project directory, you can run:
+## Some fields in main Model is:
 
-### `npm start`
++ name 
++ description
++ repetation num
++ sequency num
++ dificult category
++ i know
++ user_id
++ image
+  
+Also that, has a User with this fields:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
++ name
++ email
++ cpf
++ birth
++ active
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## In addition to CRUD, I implement other features such as:
 
-### `npm test`
+* See the more recently movement created, using Cookie.
+* Entire verification system to validate forms with personalized messages.
+* Message of success when create a movement, using Session Flash.
+* Profile User editable.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## This features are in developing:
 
-### `npm run build`
+- Search for movements by name and/or dificulted category.
+- Email verification.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<table>
+  <tr>
+    <td>PHP</td>
+    <td>Laravel</td>
+    <td>Composer</td>
+    <td>MySql</td>
+  </tr>
+  <tr>
+    <td>6.*</td>
+    <td>7.4</td>
+    <td>2.0</td>
+    <td>8.0</td>
+  </tr>
+</table>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to run the application:
 
-### `npm run eject`
+1) run shell: composer install
+2) run shell: php artisan key:generate
+3) create new Schema MySql
+4) create file .env (can copy from .env.example)
+5) configure your database variables in .env
+6) run shell: php artisan migrate
+7) run shell: php artisan serve
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## How to use mail service:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1) create free account in mailtrap
+2) into of mailtrap site, go to My Inbox
+3) go to SMT settigns
+4) choice Laravel option in Integrations
+5) copy and past in your .env
