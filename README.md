@@ -31,4 +31,10 @@ Tecnologias usadas:
 2) Instalar a pasta node_modules (yarn install ou npm install)
 3) Iniciar o projeto (npm start)
 
-## 🎨 Layout:
+## 🎨 Layout
+![inicio](https://user-images.githubusercontent.com/88160139/205466561-08e8e9a3-871e-4e08-8297-653b89046029.PNG)
+
+![login](https://user-images.githubusercontent.com/88160139/205466621-0a845100-fd54-4cf1-9ecc-d59aa63d661d.PNG)
+
+![chatbotimg](https://user-images.githubusercontent.com/88160139/205466689-0108784e-8dc7-4a9c-a660-f71776ea9fca.PNG)
+
